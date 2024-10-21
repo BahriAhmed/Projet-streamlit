@@ -1,0 +1,32 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2823 entries, 0 to 2822
+Data columns (total 25 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   ORDERNUMBER       2823 non-null   int64  
+ 1   QUANTITYORDERED   2823 non-null   int64  
+ 2   PRICEEACH         2823 non-null   float64
+ 3   ORDERLINENUMBER   2823 non-null   int64  
+ 4   SALES             2823 non-null   float64
+ 5   ORDERDATE         2823 non-null   object 
+ 6   STATUS            2823 non-null   object 
+ 7   QTR_ID            2823 non-null   int64  
+ 8   MONTH_ID          2823 non-null   int64  
+ 9   YEAR_ID           2823 non-null   int64  
+ 10  PRODUCTLINE       2823 non-null   object 
+ 11  MSRP              2823 non-null   int64  
+ 12  PRODUCTCODE       2823 non-null   object 
+ 13  CUSTOMERNAME      2823 non-null   object 
+ 14  PHONE             2823 non-null   object 
+ 15  ADDRESSLINE1      2823 non-null   object 
+ 16  ADDRESSLINE2      302 non-null    object 
+ 17  CITY              2823 non-null   object 
+ 18  STATE             1337 non-null   object 
+ 19  POSTALCODE        2747 non-null   object 
+ 20  COUNTRY           2823 non-null   object 
+ 21  TERRITORY         1749 non-null   object 
+ 22  CONTACTLASTNAME   2823 non-null   object 
+ 23  CONTACTFIRSTNAME  2823 non-null   object 
+ 24  DEALSIZE          2823 non-null   object 
+dtypes: float64(2), int64(7), object(16)
+memory usage: 551.5+ KB
